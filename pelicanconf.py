@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
+import sys
 
 AUTHOR = 'Rebeccah Duvoisin'
-SITENAME = 'R.O. Duvi-san'
+SITENAME = "Doo /fwä /zAn"
 SITEURL = 'https://rduvoisin.github.io' 
 # SITEURL = ''
 
@@ -112,3 +114,9 @@ THEME = "../pelicanthemes/clean-blog" # astronaut block
 # THEME = "../pelicanthemes/pelican-blue" # left blue block meh, no tags
 # THEME = "../pelicanthemes/photowall"
 # THEME = "../pelicanthemes/twentyhtml5" # Gave an error - 'CRITICAL: UndefinedError: '_' is undefined'
+
+
+# Footer
+# FOOTER_INCLUDE = 'custom_footer.html'
+# IGNORE_FILES = [FOOTER_INCLUDE]
+# EXTRA_TEMPLATES_PATHS = [os.path.dirname(__file__)]
