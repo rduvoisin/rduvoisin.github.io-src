@@ -18,7 +18,7 @@ See how classes can help to shape your machine learning procedure
 - |Modelling|_
 - |Smart|_ for data preparation
 
-Machine Learning typically iterate through numerous subsets of your data in order to cross-validate models on training and testing data.  Pythons `Scikit-Learn <http://Scikit-learn.org/stable/>`_'s library allows users to push their data through a loop of out-of-the-box models for selection quite easily.  
+Machine Learning projects typically require iterating through numerous subsets of your data in order to cross-validate models on training and testing data.  Python's `Scikit-Learn <http://Scikit-learn.org/stable/>`_'s library allows users to push their data through a loop of out-of-the-box models for selection quite easily.  
 
 	However, documenting the creation and evaluation of these subsets within that loop can be dizzying, particularly where preprocessing and multiple imputation are necessary and depend on the completeness of the given subset.  
 

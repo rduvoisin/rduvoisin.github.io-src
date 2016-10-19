@@ -16,7 +16,7 @@ give me some credit
 
 This open-source ML project is to predict serious delinquency of credit borrowers.
 
-One strategy is to build a master loop through scikit's library to learn the "best" model. For new learners, this angle some serious pedagogical drawbacks, but it is easily implemented. Here's the gist of the model selection loop to get you familiar with the objective here.  I've called it the ``splitter`` function because it splits the training set into cross-validation sets with each iteration of the model.  
+One strategy is to build a master loop through scikit's library to learn the "best" model. For new practitioners, **this angle has some serious pedagogical drawbacks**, but it is easily implemented. Here's the gist of the model selection loop to get you familiar with the objective here.  I've called it the ``splitter`` function because it splits the training set into cross-validation sets with each iteration of a model.  
 
 .. code-include:: ../../cappml/pa3/rayidsplitter.py
     :lexer: python
