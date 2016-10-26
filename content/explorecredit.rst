@@ -25,7 +25,7 @@ Elements of a machine learning pipeline
 
 .. |recycle| image:: {filename}/images/cycle.png
     :scale: 60 %
-    :height: 20px
+    :height: 40px
 
 
 The focus of this post are the **(pre-)processing** steps of the data pipeline.  As our muse, we are using data from an open-source ML project ("Give me some credit") to predict serious delinquency of credit borrowers. 
