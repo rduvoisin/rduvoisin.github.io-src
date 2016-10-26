@@ -28,7 +28,8 @@ Elements of a machine learning pipeline
     :height: 70px
 
 
-The focus of this post are the **(pre-)processing** steps of the data pipeline.  As our muse, we are using data from an open-source ML project ("Give me some credit") to predict serious delinquency of credit borrowers. 
+The focus of this post are the **(pre-)processing** steps of the data pipeline.  As our muse, we are using data from an open-source ML project (`Give me some credit <https://www.kaggle.com/c/GiveMeSomeCredit>`_) to predict serious delinquency of credit borrowers. 
+
 
 Exploratory plots like this one help us strategize our data munging efforts.
 
@@ -54,7 +55,7 @@ Exploratory plots like this one help us strategize our data munging efforts.
     :scale: 60 %
     :height: 1000px
 
-    Sea born pair plot of features by delinquency (green)
+    Seaborn pair plot of features by delinquency (green)
 
 
 .. |Process| replace:: **Process data**
