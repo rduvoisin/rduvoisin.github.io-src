@@ -8,7 +8,7 @@ pipe it up!
 :authors: Rebeccah Duvoisin
 :summary: Building a pipeline for machine learning projects
 :headline: Building a pipeline for machine learning projects
-:header_cover: images/cycle.png
+:header_cover: images/pairplot.png
 
 
 
