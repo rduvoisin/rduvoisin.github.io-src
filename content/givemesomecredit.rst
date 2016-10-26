@@ -7,16 +7,16 @@ give me some credit
 :slug: Scikit-ml
 :authors: Rebeccah Duvoisin
 :summary: Classification with Scikit-Learn
-:headline: Predicting delinquency on loans repayment
+:headline: Predicting delinquency on loans repayment 
 :header_cover: images/ROC_by_classifier_dark.png
 
 
-`See post on OOP tips for data preparation <{filename}/oopml.rst>`_
+`See post on OOP tips for data preparation <{filename}/oopml.rst>`_ for machine learning projects. 
 
 
 This open-source ML project is to predict serious delinquency of credit borrowers.
 
-One strategy is to build a master loop through scikit's library to learn the "best" model. For new practitioners, **this angle has some serious pedagogical drawbacks**, but it is easily implemented. Here's the gist of the model selection loop to get you familiar with the objective here.  I've called it the ``splitter`` function because it splits the training set into cross-validation sets with each iteration of a model.  
+One strategy is to build a master loop through scikit's library to learn the "best" model. For new practitioners, **this angle suffers some serious pedagogical trade-offs**, but it *is* easily implemented. Here's the gist of the model selection loop to get you familiar with the objective here.  I've called it the ``splitter`` function because it splits the training set into cross-validation sets with each iteration of a model.  
 
 .. code-include:: ../../cappml/pa3/rayidsplitter.py
     :lexer: python
@@ -69,7 +69,7 @@ With each new "best" model, we take several snapshots of the model's performance
 - |precision|_
 - |roc_by_classifier|_
 
-.. |feature_importance| replace:: **Feature Impotance**
+.. |feature_importance| replace:: **Feature Importance**
 .. _feature_importance:
 
 .. figure:: {filename}/images/HOLDOUT_MISS_log_Final_Validation_RandomForestClassifier_feat_importance.png

@@ -1,7 +1,7 @@
 Title: panda! panda! panda! 
 Date: 2016-01-15 5:08
 Category: project
-Tags: public policy, jupyter, code
+Tags: public policy, jupyter, code, notebook
 Slug: crime-blog
 Authors: Rebeccah Duvoisin
 Summary: Notebook of Crime and Narcotics data. Using Pandas of course.

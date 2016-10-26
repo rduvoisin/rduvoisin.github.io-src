@@ -5,9 +5,9 @@ import os
 import sys
 
 AUTHOR = 'Rebeccah Duvoisin'
-SITENAME = "Doo /fwä /zAn"
+SITENAME = "/Doo fwä ẓän/"
+# SITENAME = "/Doo fwäẓän/"
 SITEURL = 'https://rduvoisin.github.io' 
-# SITEURL = ''
 
 PATHS = 'content'
 # STATIC_PATHS = ['images']
@@ -29,15 +29,15 @@ AUTHOR_FEED_RSS = None
 DELETE_OUTPUT_DIRECTORY = True
 
 # Blogroll
-LINKS = ( ('View Computation for Public Policy projects on GitHub', 'https://github.com/rduvoisin/Computation_Public_Policy'),
-		  ('My GitHub', 'https://github.com/rduvoisin/'))
+LINKS = (('PubPol', 'https://github.com/rduvoisin/Computation_Public_Policy'),)
 #          ('Python.org', 'http://python.org/'),
 #          ('Jinja2', 'http://jinja.pocoo.org/'),
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-# SOCIAL = (('You can add links in your config file', '#'),
-#           ('Another social link', '#'),)
+SOCIAL = (('My GitHub', 'https://github.com/rduvoisin/'))
+#		  ('You can add links in your config file', '#'),
+#          ('Another social link', '#'),
 
 GITHUB_URL = 'http://github.com/rduvoisin'
 DEFAULT_PAGINATION = 4
