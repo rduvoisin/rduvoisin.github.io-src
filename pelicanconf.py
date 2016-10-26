@@ -5,7 +5,7 @@ import os
 import sys
 
 AUTHOR = 'Rebeccah Duvoisin'
-SITENAME = "/Doo fwä ẓän/"
+SITENAME = "/Doo fwä zän/"
 # SITENAME = "/Doo fwäẓän/"
 SITEURL = 'https://rduvoisin.github.io' 
 

@@ -15,22 +15,22 @@ pipe it up!
 Elements of a machine learning pipeline 
 ================================================================================
 
-- Acquire raw data (`read-in data <{filename}/oopml.rst#read>`_.)
+- Acquire raw data (`read-in <{filename}/oopml.rst#read>`_.)
 - Explore
-- Train |recycle|
+- Train 
   + |Process|_
-  + Cross-validate models
+  + Cross-validate models |recycle|
 -  Test
 
 
 .. |recycle| image:: {filename}/images/cycle.png
     :scale: 60 %
-    :height: 40px
+    :height: 70px
 
 
 The focus of this post are the **(pre-)processing** steps of the data pipeline.  As our muse, we are using data from an open-source ML project ("Give me some credit") to predict serious delinquency of credit borrowers. 
 
-Exploratory plots like this one help us prioritize data munging efforts.
+Exploratory plots like this one help us strategize our data munging efforts.
 
 
 .. {% notebook notebooks/pa2.ipynb %}
